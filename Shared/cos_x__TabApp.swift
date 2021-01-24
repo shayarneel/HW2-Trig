@@ -18,13 +18,13 @@ struct cos_x__TabApp: App {
                 ContentView()
                     .environmentObject(plotDataModel)
                     .tabItem {
-                            Text("Plot")
-                                    }
+                        Text("Plot")
+                    }
                 TextView()
                     .environmentObject(plotDataModel)
                     .tabItem {
-                            Text("Text")
-                                    }
+                        Text("Text")
+                    }
                             
                             
             }
