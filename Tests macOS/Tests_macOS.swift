@@ -122,11 +122,11 @@ class Tests_macOS: XCTestCase {
         
         cosCalculate.plotDataModel = plotDataModel
         
-        let sum = cosCalculate.calculate1DInfiniteSum(function: infiniteSumTestMultiplier, x: 0.5, minimum: 1, maximum: 50, firstTerm: 1.0, isPlotError: false, errorType: cosCalculate.cosErrorCalculator )
+        let sum = cosCalculate.calculate1DInfiniteSum(function: infiniteSumTestMultiplier, x: 0.5, offset:1.0, minimum: 1, maximum: 50, firstTerm: 1.0, isPlotError: false, errorType: cosCalculate.cosErrorCalculator )
         
         XCTAssertEqual(sum, (2.0), accuracy: 5E-15)
         
-        let sum2 = cosCalculate.calculate1DInfiniteSum(function: infiniteSumTestMultiplier, x: 0.75, minimum: 1, maximum: 200, firstTerm: 1.0, isPlotError: false, errorType: cosCalculate.cosErrorCalculator )
+        let sum2 = cosCalculate.calculate1DInfiniteSum(function: infiniteSumTestMultiplier, x: 0.75, offset:0.0, minimum: 1, maximum: 200, firstTerm: 1.0, isPlotError: false, errorType: cosCalculate.cosErrorCalculator )
         
         XCTAssertEqual(sum2, (4.0), accuracy: 5E-15)
         

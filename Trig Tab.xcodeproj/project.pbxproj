@@ -7,22 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BE1289D27AB3AAC00C70528 /* CorePlot in Frameworks */ = {isa = PBXBuildFile; productRef = 2BE1289C27AB3AAC00C70528 /* CorePlot */; };
 		D2947E6C25BD25E900E60142 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2947E6B25BD25E900E60142 /* Tests_iOS.swift */; };
 		D2947E7725BD25E900E60142 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2947E7625BD25E900E60142 /* Tests_macOS.swift */; };
-		D2947E7925BD25E900E60142 /* cos_x__TabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2947E5025BD25E900E60142 /* cos_x__TabApp.swift */; };
-		D2947E7A25BD25E900E60142 /* cos_x__TabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2947E5025BD25E900E60142 /* cos_x__TabApp.swift */; };
+		D2947E7925BD25E900E60142 /* trig_x__TabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2947E5025BD25E900E60142 /* trig_x__TabApp.swift */; };
+		D2947E7A25BD25E900E60142 /* trig_x__TabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2947E5025BD25E900E60142 /* trig_x__TabApp.swift */; };
 		D2947E7B25BD25E900E60142 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2947E5125BD25E900E60142 /* ContentView.swift */; };
 		D2947E7C25BD25E900E60142 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2947E5125BD25E900E60142 /* ContentView.swift */; };
 		D2947E7D25BD25E900E60142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2947E5225BD25E900E60142 /* Assets.xcassets */; };
 		D2947E7E25BD25E900E60142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2947E5225BD25E900E60142 /* Assets.xcassets */; };
-		D2947E9325BD26D800E60142 /* CorePlot in Frameworks */ = {isa = PBXBuildFile; productRef = D2947E9225BD26D800E60142 /* CorePlot */; };
-		D2947E9A25BD270300E60142 /* CorePlot in Frameworks */ = {isa = PBXBuildFile; productRef = D2947E9925BD270300E60142 /* CorePlot */; };
-		D2947E9C25BD270C00E60142 /* CorePlot in Frameworks */ = {isa = PBXBuildFile; productRef = D2947E9B25BD270C00E60142 /* CorePlot */; };
-		D2947E9E25BD270F00E60142 /* CorePlot in Frameworks */ = {isa = PBXBuildFile; productRef = D2947E9D25BD270F00E60142 /* CorePlot */; };
-		D2947EAF25BD29EC00E60142 /* cos_X_Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2947EA725BD29EC00E60142 /* cos_X_Calculator.swift */; };
-		D2947EB025BD29EC00E60142 /* cos_X_Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2947EA725BD29EC00E60142 /* cos_X_Calculator.swift */; };
-		D2947EB125BD29EC00E60142 /* cos_X_Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2947EA725BD29EC00E60142 /* cos_X_Calculator.swift */; };
-		D2947EB225BD29EC00E60142 /* cos_X_Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2947EA725BD29EC00E60142 /* cos_X_Calculator.swift */; };
+		D2947EAF25BD29EC00E60142 /* trig_X_Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2947EA725BD29EC00E60142 /* trig_X_Calculator.swift */; };
+		D2947EB025BD29EC00E60142 /* trig_X_Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2947EA725BD29EC00E60142 /* trig_X_Calculator.swift */; };
+		D2947EB125BD29EC00E60142 /* trig_X_Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2947EA725BD29EC00E60142 /* trig_X_Calculator.swift */; };
+		D2947EB225BD29EC00E60142 /* trig_X_Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2947EA725BD29EC00E60142 /* trig_X_Calculator.swift */; };
 		D2947EB325BD29EC00E60142 /* operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2947EA825BD29EC00E60142 /* operators.swift */; };
 		D2947EB425BD29EC00E60142 /* operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2947EA825BD29EC00E60142 /* operators.swift */; };
 		D2947EB525BD29EC00E60142 /* operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2947EA825BD29EC00E60142 /* operators.swift */; };
@@ -73,12 +70,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D2947E5025BD25E900E60142 /* cos_x__TabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cos_x__TabApp.swift; sourceTree = "<group>"; };
+		D2947E5025BD25E900E60142 /* trig_x__TabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trig_x__TabApp.swift; sourceTree = "<group>"; };
 		D2947E5125BD25E900E60142 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D2947E5225BD25E900E60142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D2947E5725BD25E900E60142 /* cos(x) Tab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cos(x) Tab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2947E5725BD25E900E60142 /* Trig Tab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trig Tab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2947E5A25BD25E900E60142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2947E5F25BD25E900E60142 /* cos(x) Tab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cos(x) Tab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2947E5F25BD25E900E60142 /* Trig Tab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trig Tab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2947E6125BD25E900E60142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2947E6225BD25E900E60142 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		D2947E6725BD25E900E60142 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,7 +84,7 @@
 		D2947E7225BD25E900E60142 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2947E7625BD25E900E60142 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		D2947E7825BD25E900E60142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2947EA725BD29EC00E60142 /* cos_X_Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cos_X_Calculator.swift; sourceTree = "<group>"; };
+		D2947EA725BD29EC00E60142 /* trig_X_Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = trig_X_Calculator.swift; sourceTree = "<group>"; };
 		D2947EA825BD29EC00E60142 /* operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = operators.swift; sourceTree = "<group>"; };
 		D2947EA925BD29EC00E60142 /* CalculatePlotData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatePlotData.swift; sourceTree = "<group>"; };
 		D2947EAA25BD29EC00E60142 /* CorePlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorePlot.swift; sourceTree = "<group>"; };
@@ -102,7 +99,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2947E9325BD26D800E60142 /* CorePlot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2947E9A25BD270300E60142 /* CorePlot in Frameworks */,
+				2BE1289D27AB3AAC00C70528 /* CorePlot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +114,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2947E9C25BD270C00E60142 /* CorePlot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +121,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2947E9E25BD270F00E60142 /* CorePlot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,11 +147,11 @@
 				D2947EA925BD29EC00E60142 /* CalculatePlotData.swift */,
 				D2947EAB25BD29EC00E60142 /* ChangingPlotParameters.swift */,
 				D2947EAA25BD29EC00E60142 /* CorePlot.swift */,
-				D2947EA725BD29EC00E60142 /* cos_X_Calculator.swift */,
+				D2947EA725BD29EC00E60142 /* trig_X_Calculator.swift */,
 				D2947EA825BD29EC00E60142 /* operators.swift */,
 				D2947EAE25BD29EC00E60142 /* PlotDataClass.swift */,
 				D2947EAC25BD29EC00E60142 /* TextView.swift */,
-				D2947E5025BD25E900E60142 /* cos_x__TabApp.swift */,
+				D2947E5025BD25E900E60142 /* trig_x__TabApp.swift */,
 				D2947E5125BD25E900E60142 /* ContentView.swift */,
 				D2947E5225BD25E900E60142 /* Assets.xcassets */,
 			);
@@ -167,8 +161,8 @@
 		D2947E5825BD25E900E60142 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2947E5725BD25E900E60142 /* cos(x) Tab.app */,
-				D2947E5F25BD25E900E60142 /* cos(x) Tab.app */,
+				D2947E5725BD25E900E60142 /* Trig Tab.app */,
+				D2947E5F25BD25E900E60142 /* Trig Tab.app */,
 				D2947E6725BD25E900E60142 /* Tests iOS.xctest */,
 				D2947E7225BD25E900E60142 /* Tests macOS.xctest */,
 			);
@@ -228,9 +222,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D2947E5625BD25E900E60142 /* cos(x) Tab (iOS) */ = {
+		D2947E5625BD25E900E60142 /* Trig Tab (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2947E8125BD25E900E60142 /* Build configuration list for PBXNativeTarget "cos(x) Tab (iOS)" */;
+			buildConfigurationList = D2947E8125BD25E900E60142 /* Build configuration list for PBXNativeTarget "Trig Tab (iOS)" */;
 			buildPhases = (
 				D2947E5325BD25E900E60142 /* Sources */,
 				D2947E5425BD25E900E60142 /* Frameworks */,
@@ -240,17 +234,16 @@
 			);
 			dependencies = (
 			);
-			name = "cos(x) Tab (iOS)";
+			name = "Trig Tab (iOS)";
 			packageProductDependencies = (
-				D2947E9225BD26D800E60142 /* CorePlot */,
 			);
 			productName = "cos(x) Tab (iOS)";
-			productReference = D2947E5725BD25E900E60142 /* cos(x) Tab.app */;
+			productReference = D2947E5725BD25E900E60142 /* Trig Tab.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D2947E5E25BD25E900E60142 /* cos(x) Tab (macOS) */ = {
+		D2947E5E25BD25E900E60142 /* Trig Tab (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2947E8425BD25E900E60142 /* Build configuration list for PBXNativeTarget "cos(x) Tab (macOS)" */;
+			buildConfigurationList = D2947E8425BD25E900E60142 /* Build configuration list for PBXNativeTarget "Trig Tab (macOS)" */;
 			buildPhases = (
 				D2947E5B25BD25E900E60142 /* Sources */,
 				D2947E5C25BD25E900E60142 /* Frameworks */,
@@ -260,12 +253,12 @@
 			);
 			dependencies = (
 			);
-			name = "cos(x) Tab (macOS)";
+			name = "Trig Tab (macOS)";
 			packageProductDependencies = (
-				D2947E9925BD270300E60142 /* CorePlot */,
+				2BE1289C27AB3AAC00C70528 /* CorePlot */,
 			);
 			productName = "cos(x) Tab (macOS)";
-			productReference = D2947E5F25BD25E900E60142 /* cos(x) Tab.app */;
+			productReference = D2947E5F25BD25E900E60142 /* Trig Tab.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D2947E6625BD25E900E60142 /* Tests iOS */ = {
@@ -283,7 +276,6 @@
 			);
 			name = "Tests iOS";
 			packageProductDependencies = (
-				D2947E9B25BD270C00E60142 /* CorePlot */,
 			);
 			productName = "Tests iOS";
 			productReference = D2947E6725BD25E900E60142 /* Tests iOS.xctest */;
@@ -304,7 +296,6 @@
 			);
 			name = "Tests macOS";
 			packageProductDependencies = (
-				D2947E9D25BD270F00E60142 /* CorePlot */,
 			);
 			productName = "Tests macOS";
 			productReference = D2947E7225BD25E900E60142 /* Tests macOS.xctest */;
@@ -335,7 +326,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D2947E4E25BD25E900E60142 /* Build configuration list for PBXProject "cos(x) Tab" */;
+			buildConfigurationList = D2947E4E25BD25E900E60142 /* Build configuration list for PBXProject "Trig Tab" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -345,14 +336,14 @@
 			);
 			mainGroup = D2947E4A25BD25E900E60142;
 			packageReferences = (
-				D2947E9125BD26D800E60142 /* XCRemoteSwiftPackageReference "core-plot" */,
+				2BE1289B27AB3AAC00C70528 /* XCRemoteSwiftPackageReference "core-plot" */,
 			);
 			productRefGroup = D2947E5825BD25E900E60142 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2947E5625BD25E900E60142 /* cos(x) Tab (iOS) */,
-				D2947E5E25BD25E900E60142 /* cos(x) Tab (macOS) */,
+				D2947E5625BD25E900E60142 /* Trig Tab (iOS) */,
+				D2947E5E25BD25E900E60142 /* Trig Tab (macOS) */,
 				D2947E6625BD25E900E60142 /* Tests iOS */,
 				D2947E7125BD25E900E60142 /* Tests macOS */,
 			);
@@ -400,12 +391,12 @@
 				D2947E7B25BD25E900E60142 /* ContentView.swift in Sources */,
 				D2947EC325BD29EC00E60142 /* TextView.swift in Sources */,
 				D2947EB325BD29EC00E60142 /* operators.swift in Sources */,
-				D2947E7925BD25E900E60142 /* cos_x__TabApp.swift in Sources */,
+				D2947E7925BD25E900E60142 /* trig_x__TabApp.swift in Sources */,
 				D2947ECB25BD29EC00E60142 /* PlotDataClass.swift in Sources */,
 				D2947EBB25BD29EC00E60142 /* CorePlot.swift in Sources */,
 				D2947EB725BD29EC00E60142 /* CalculatePlotData.swift in Sources */,
 				D2947EBF25BD29EC00E60142 /* ChangingPlotParameters.swift in Sources */,
-				D2947EAF25BD29EC00E60142 /* cos_X_Calculator.swift in Sources */,
+				D2947EAF25BD29EC00E60142 /* trig_X_Calculator.swift in Sources */,
 				D2947F0025BD2C8900E60142 /* TextExportDocument.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,12 +408,12 @@
 				D2947E7C25BD25E900E60142 /* ContentView.swift in Sources */,
 				D2947EC425BD29EC00E60142 /* TextView.swift in Sources */,
 				D2947EB425BD29EC00E60142 /* operators.swift in Sources */,
-				D2947E7A25BD25E900E60142 /* cos_x__TabApp.swift in Sources */,
+				D2947E7A25BD25E900E60142 /* trig_x__TabApp.swift in Sources */,
 				D2947ECC25BD29EC00E60142 /* PlotDataClass.swift in Sources */,
 				D2947EBC25BD29EC00E60142 /* CorePlot.swift in Sources */,
 				D2947EB825BD29EC00E60142 /* CalculatePlotData.swift in Sources */,
 				D2947EC025BD29EC00E60142 /* ChangingPlotParameters.swift in Sources */,
-				D2947EB025BD29EC00E60142 /* cos_X_Calculator.swift in Sources */,
+				D2947EB025BD29EC00E60142 /* trig_X_Calculator.swift in Sources */,
 				D2947F0125BD2C8900E60142 /* TextExportDocument.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,7 +422,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2947EB125BD29EC00E60142 /* cos_X_Calculator.swift in Sources */,
+				D2947EB125BD29EC00E60142 /* trig_X_Calculator.swift in Sources */,
 				D2947EB925BD29EC00E60142 /* CalculatePlotData.swift in Sources */,
 				D2947E6C25BD25E900E60142 /* Tests_iOS.swift in Sources */,
 				D2947EC525BD29EC00E60142 /* TextView.swift in Sources */,
@@ -448,7 +439,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2947EB225BD29EC00E60142 /* cos_X_Calculator.swift in Sources */,
+				D2947EB225BD29EC00E60142 /* trig_X_Calculator.swift in Sources */,
 				D2947EBA25BD29EC00E60142 /* CalculatePlotData.swift in Sources */,
 				D2947E7725BD25E900E60142 /* Tests_macOS.swift in Sources */,
 				D2947EC625BD29EC00E60142 /* TextView.swift in Sources */,
@@ -466,12 +457,12 @@
 /* Begin PBXTargetDependency section */
 		D2947E6925BD25E900E60142 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2947E5625BD25E900E60142 /* cos(x) Tab (iOS) */;
+			target = D2947E5625BD25E900E60142 /* Trig Tab (iOS) */;
 			targetProxy = D2947E6825BD25E900E60142 /* PBXContainerItemProxy */;
 		};
 		D2947E7425BD25E900E60142 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2947E5E25BD25E900E60142 /* cos(x) Tab (macOS) */;
+			target = D2947E5E25BD25E900E60142 /* Trig Tab (macOS) */;
 			targetProxy = D2947E7325BD25E900E60142 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -603,7 +594,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jiIIT.cos-x--Tab";
-				PRODUCT_NAME = "cos(x) Tab";
+				PRODUCT_NAME = "Trig Tab";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -625,7 +616,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jiIIT.cos-x--Tab";
-				PRODUCT_NAME = "cos(x) Tab";
+				PRODUCT_NAME = "Trig Tab";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -639,9 +630,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = V59RVGUYZD;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
@@ -651,7 +643,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jiIIT.cos-x--Tab";
-				PRODUCT_NAME = "cos(x) Tab";
+				PRODUCT_NAME = "Trig Tab";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -663,9 +655,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = V59RVGUYZD;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
@@ -675,7 +668,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jiIIT.cos-x--Tab";
-				PRODUCT_NAME = "cos(x) Tab";
+				PRODUCT_NAME = "Trig Tab";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -773,7 +766,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D2947E4E25BD25E900E60142 /* Build configuration list for PBXProject "cos(x) Tab" */ = {
+		D2947E4E25BD25E900E60142 /* Build configuration list for PBXProject "Trig Tab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2947E7F25BD25E900E60142 /* Debug */,
@@ -782,7 +775,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2947E8125BD25E900E60142 /* Build configuration list for PBXNativeTarget "cos(x) Tab (iOS)" */ = {
+		D2947E8125BD25E900E60142 /* Build configuration list for PBXNativeTarget "Trig Tab (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2947E8225BD25E900E60142 /* Debug */,
@@ -791,7 +784,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2947E8425BD25E900E60142 /* Build configuration list for PBXNativeTarget "cos(x) Tab (macOS)" */ = {
+		D2947E8425BD25E900E60142 /* Build configuration list for PBXNativeTarget "Trig Tab (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2947E8525BD25E900E60142 /* Debug */,
@@ -821,9 +814,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D2947E9125BD26D800E60142 /* XCRemoteSwiftPackageReference "core-plot" */ = {
+		2BE1289B27AB3AAC00C70528 /* XCRemoteSwiftPackageReference "core-plot" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/core-plot/core-plot";
+			repositoryURL = "http://github.com/core-plot/core-plot";
 			requirement = {
 				branch = "release-2.4";
 				kind = branch;
@@ -832,24 +825,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D2947E9225BD26D800E60142 /* CorePlot */ = {
+		2BE1289C27AB3AAC00C70528 /* CorePlot */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D2947E9125BD26D800E60142 /* XCRemoteSwiftPackageReference "core-plot" */;
-			productName = CorePlot;
-		};
-		D2947E9925BD270300E60142 /* CorePlot */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D2947E9125BD26D800E60142 /* XCRemoteSwiftPackageReference "core-plot" */;
-			productName = CorePlot;
-		};
-		D2947E9B25BD270C00E60142 /* CorePlot */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D2947E9125BD26D800E60142 /* XCRemoteSwiftPackageReference "core-plot" */;
-			productName = CorePlot;
-		};
-		D2947E9D25BD270F00E60142 /* CorePlot */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D2947E9125BD26D800E60142 /* XCRemoteSwiftPackageReference "core-plot" */;
+			package = 2BE1289B27AB3AAC00C70528 /* XCRemoteSwiftPackageReference "core-plot" */;
 			productName = CorePlot;
 		};
 /* End XCSwiftPackageProductDependency section */
